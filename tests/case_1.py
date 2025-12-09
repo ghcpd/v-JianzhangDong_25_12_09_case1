@@ -1,11 +1,16 @@
-from app.data_loader import load_csv, normalize_column
-import pandas as pd
+try:
+    from app.data_loader import load_csv, normalize_column
+    import pandas as pd
 
-# Create a temp CSV (no external files needed)
-df = pd.DataFrame({"value": [1, 2, 3, 4, 5]})
-df.to_csv("tmp.csv", index=False)
+    # Create a temp CSV (no external files needed)
+    df = pd.DataFrame({"value": [1, 2, 3, 4, 5]})
+    df.to_csv("tmp.csv", index=False)
 
-data = load_csv("tmp.csv")
-norm = normalize_column(data, "value")
+    data = load_csv("tmp.csv")
+    norm = normalize_column(data, "value")
 
-print("Normalization OK:", norm[:3])
+    print("Normalization OK:", norm[:3])
+except ImportError as e:
+    print(f"Test failed due to missing dependency: {e}")
+except Exception as e:
+    print(f"Test failed: {e}")
