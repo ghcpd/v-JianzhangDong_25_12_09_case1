@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.3.5",
+      "reason": "Outdated version; v2.3.5 is the latest stable with full Python 3.14 wheel support."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.3.3",
+      "reason": "Outdated version; v2.3.3 is stable with Python 3.14 wheel support and performance improvements."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.10.7",
+      "reason": "Outdated version; v3.10.7 is latest stable with Python 3.14 wheel support."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.32.3",
+      "reason": "Original version (2.25.0) contains known security vulnerabilities (CVE-2023-32681); v2.32.3 includes critical security patches."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.1",
+      "reason": "Original version has security vulnerabilities (CVE-2020-14343 - arbitrary code execution); v6.0.1 is patched and secure."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.16.3",
+      "reason": "Outdated version; v1.16.3 is latest stable with Python 3.14 wheel support."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Outdated version from 2021; v2025.11.3 is latest with Python 3.14 wheel support."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.67.1",
+      "reason": "Outdated version from 2018; v4.67.1 is current with performance improvements."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Outdated version with potential vulnerabilities; v6.0.2 is latest with Python 3.14 support."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.12.2",
+      "reason": "Outdated version from 2019; v4.12.2 is current with full Python 3.14 compatibility."
+    }
+  ]
+}
