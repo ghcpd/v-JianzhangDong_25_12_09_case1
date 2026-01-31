@@ -1,0 +1,74 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "package": "numpy",
+      "original_version": "1.24.0",
+      "updated_version": "2.3.5",
+      "reason": "Old version lacks Python 3.14 support and binary wheels were unavailable; updated to numpy 2.3.5 which provides wheels for Python 3.14."
+    },
+    {
+      "id": 2,
+      "package": "pandas",
+      "original_version": "1.5.0",
+      "updated_version": "2.3.3",
+      "reason": "Older pandas doesn't support Python 3.14; updated for compatibility and bug/security fixes."
+    },
+    {
+      "id": 3,
+      "package": "matplotlib",
+      "original_version": "3.5.0",
+      "updated_version": "3.10.7",
+      "reason": "Selected matplotlib 3.10.7 as it provides binary wheels for Python 3.14 on Windows and is compatible with chosen numpy/pandas versions."
+    },
+    {
+      "id": 4,
+      "package": "requests",
+      "original_version": "2.25.0",
+      "updated_version": "2.31.0",
+      "reason": "2.25.x contains known vulnerabilities; updated to a secure stable release."
+    },
+    {
+      "id": 5,
+      "package": "pyyaml",
+      "original_version": "5.3.1",
+      "updated_version": "6.0.3",
+      "reason": "Updated to a secure PyYAML release (6.0.3) that is available as a binary wheel."
+    },
+    {
+      "id": 6,
+      "package": "scipy",
+      "original_version": "1.9.0",
+      "updated_version": "1.16.3",
+      "reason": "Updated for compatibility with newer NumPy and Python 3.14 and to use available binary wheels (1.16.3)."
+    },
+    {
+      "id": 7,
+      "package": "regex",
+      "original_version": "2021.4.4",
+      "updated_version": "2025.11.3",
+      "reason": "Updated to a recent release available on PyPI for this Python/platform with fixes."
+    },
+    {
+      "id": 8,
+      "package": "tqdm",
+      "original_version": "4.32.0",
+      "updated_version": "4.66.1",
+      "reason": "Old tqdm lacks recent fixes; updated to a newer stable release."
+    },
+    {
+      "id": 9,
+      "package": "lxml",
+      "original_version": "4.6.1",
+      "updated_version": "6.0.2",
+      "reason": "Selected lxml==6.0.2 since it is available as a binary wheel for Python 3.14 on this platform."
+    },
+    {
+      "id": 10,
+      "package": "typing_extensions",
+      "original_version": "3.7.4",
+      "updated_version": "4.9.0",
+      "reason": "Old typing_extensions is incompatible with modern Python versions; updated to a current release."
+    }
+  ]
+}
